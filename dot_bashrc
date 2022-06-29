@@ -1,0 +1,7 @@
+alias pissh="ssh elle@192.168.50.205"
+
+source "/mingw64/share/git/completion/git-prompt.sh"
+export GIT_PS1_SHOWDIRTYSTATE=1
+export GIT_PS1_SHOWSTASHSTATE=1
+export GIT_PS1_SHOWUNTRACKEDFILES=1
+export PROMPT_COMMAND='__git_ps1 "\[\e[0m\]\W" " λ "'

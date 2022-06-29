@@ -1,0 +1,9 @@
+[user]
+	email = endie2@protonmail.com
+	name = Lavender Perry
+[commit]
+	gpgsign = true
+[pull]
+	rebase = false
+[init]
+	defaultBranch = main
