@@ -17,7 +17,7 @@ These can be removed/replaced by modifying the dotfiles
   
 ## Colorschemes
 * Doom Emacs: [Flatwhite](https://github.com/biletskyy/flatwhite-syntax)
-* Windows Terminal colorscheme: [Rosé Pine Dawn](https://rosepinetheme.com/palette#dawn-swatches)
+* Windows Terminal: [Rosé Pine Dawn](https://rosepinetheme.com/palette#dawn-swatches)
 
 ## Other information/recommendations
 * I use Windows 11, but these dotfiles should work with any version of Windows
