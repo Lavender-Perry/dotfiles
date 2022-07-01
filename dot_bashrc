@@ -1,3 +1,5 @@
+#!/usr/bin/env bash
+
 alias pissh="ssh elle@192.168.50.205"
 
 source "/mingw64/share/git/completion/git-prompt.sh"
