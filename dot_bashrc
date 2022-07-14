@@ -1,6 +1,7 @@
 #!/usr/bin/env bash
 
 alias pissh="ssh elle@192.168.50.205"
+alias pisftp="sftp elle@192.168.50.205"
 
 source "/mingw64/share/git/completion/git-prompt.sh"
 export GIT_PS1_SHOWDIRTYSTATE=1
