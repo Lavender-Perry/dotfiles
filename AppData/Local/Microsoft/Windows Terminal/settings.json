@@ -38,7 +38,7 @@
         "list": 
         [
             {
-                "colorScheme": "Everforest Dark Medium",
+                "colorScheme": "zenwritten_dark",
                 "commandline": "C:\\Users\\Lavender Perry\\scoop\\apps\\git\\current\\bin\\bash.exe",
                 "font": 
                 {
@@ -47,11 +47,11 @@
                 },
                 "guid": "{754651f5-d6ad-4ab7-b857-054679890aec}",
                 "hidden": false,
-                "icon": "C:\\Users\\Lavender Perry\\Pictures\\My Drawings\\server-icon.png",
                 "name": "Git Bash",
                 "startingDirectory": "%USERPROFILE%"
             },
             {
+                "colorScheme": "zenwritten_dark",
                 "font": 
                 {
                     "face": "VictorMono NF",
@@ -62,6 +62,7 @@
                 "name": "Windows PowerShell"
             },
             {
+                "colorScheme": "zenwritten_dark",
                 "font": 
                 {
                     "face": "VictorMono NF",
@@ -72,6 +73,12 @@
                 "name": "Command Prompt"
             },
             {
+                "colorScheme": "zenwritten_dark",
+                "font": 
+                {
+                    "face": "VictorMono NF",
+                    "size": 14
+                },
                 "guid": "{b453ae62-4e3d-5e58-b989-0a998ec441b8}",
                 "hidden": false,
                 "name": "Azure Cloud Shell",
@@ -126,29 +133,6 @@
             "selectionBackground": "#FFFFFF",
             "white": "#CCCCCC",
             "yellow": "#C19C00"
-        },
-        {
-            "background": "#2F383E",
-            "black": "#4B565C",
-            "blue": "#7FBBB3",
-            "brightBlack": "#4B565C",
-            "brightBlue": "#7FBBB3",
-            "brightCyan": "#83C092",
-            "brightGreen": "#A7C080",
-            "brightPurple": "#D699B6",
-            "brightRed": "#E67E80",
-            "brightWhite": "#D3C6AA",
-            "brightYellow": "#DBBC7F",
-            "cursorColor": "#D3C6AA",
-            "cyan": "#83C092",
-            "foreground": "#D3C6AA",
-            "green": "#A7C080",
-            "name": "Everforest Dark Medium",
-            "purple": "#D699B6",
-            "red": "#E67E80",
-            "selectionBackground": "#D3C6AA",
-            "white": "#D3C6AA",
-            "yellow": "#DBBC7F"
         },
         {
             "background": "#282C34",
@@ -310,6 +294,29 @@
             "selectionBackground": "#FFFFFF",
             "white": "#C0C0C0",
             "yellow": "#808000"
+        },
+        {
+            "background": "#191919",
+            "black": "#191919",
+            "blue": "#6099C0",
+            "brightBlack": "#3D3839",
+            "brightBlue": "#61ABDA",
+            "brightCyan": "#65B8C1",
+            "brightGreen": "#8BAE68",
+            "brightPurple": "#CF86C1",
+            "brightRed": "#E8838F",
+            "brightWhite": "#8E8E8E",
+            "brightYellow": "#D68C67",
+            "cursorColor": "#C9C9C9",
+            "cyan": "#66A5AD",
+            "foreground": "#BBBBBB",
+            "green": "#819B69",
+            "name": "zenwritten_dark",
+            "purple": "#B279A7",
+            "red": "#DE6E7C",
+            "selectionBackground": "#404040",
+            "white": "#BBBBBB",
+            "yellow": "#B77E64"
         }
     ],
     "theme": "dark"

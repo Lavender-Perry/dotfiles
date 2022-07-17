@@ -1,13 +1,16 @@
 require("bootstrap")
 require("dep")({
-  "sainnhe/everforest",
-  "sheerun/vim-polyglot",
-  {
-    "windwp/nvim-autopairs",
-    function()
-      require("nvim-autopairs").setup()
-    end
-  }
+    {
+      "mcchrish/zenbones.nvim",
+      requires = "rktjmp/lush.nvim"
+    },
+    "sheerun/vim-polyglot",
+    {
+      "windwp/nvim-autopairs",
+      function()
+        require("nvim-autopairs").setup()
+      end
+    }
 })
 
 vim.g.mapleader = "`"
@@ -21,8 +24,4 @@ vim.o.termguicolors = true
 vim.o.guifont = "VictorMono NF:h11"
 vim.o.colorcolumn = "88"
 
-vim.g.everforest_better_performance = 1
-vim.g.everforest_show_eob = 0
-vim.g.everforest_ui_contrast = "high"
-
-vim.cmd("colorscheme everforest")
+vim.cmd("colorscheme zenwritten")
